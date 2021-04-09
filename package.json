@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "electron ."
+    "start": "browserify opentok.js > bundle.js && http-server & npx electron ."
   },
   "author": "Manik Sachdeva",
   "license": "ISC",
